@@ -1,0 +1,9 @@
+<div class="money-data">
+    <canvas
+        baseChart
+        [data]="pieChartData"
+        [options]="pieChartOptions"
+        [type]="pieChartType"
+    ></canvas>
+    <app-button [title]="'add expense'" (onClick)="navigateToUsersMoneyPage()"></app-button>
+</div>

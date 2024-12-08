@@ -1,0 +1,9 @@
+<form [formGroup]="getMoneyDataForm()">
+    <div class="inputs">
+        <label>{{ formTypeTitle }}</label>
+        <input formControlName="moneyDataTitle"/>
+        <label>Amount of money:</label>
+        <input formControlName="amountOfMoney"/>
+    </div>
+    <app-button [title]="'add'" (onClick)="sendData()"></app-button>
+</form>

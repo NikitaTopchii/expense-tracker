@@ -1,0 +1,31 @@
+
+.users-money-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+    &__header{
+        padding: 15px;
+        border-radius: 10px;
+        width: 400px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    &__header-title{
+        font-size: 18px;
+    }
+
+    &__form{
+        width: 400px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 20px;
+        padding: 30px 20px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
